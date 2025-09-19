@@ -39,14 +39,8 @@ int main(){
             printf("The Addition is: %d",ans);
             break;
         case 2:
-            if (a>b){
-                ans = a - b;
-                printf("The Subtraction is: %d",ans);
-            }
-            else{
-                ans = b - a;
-                printf("The Subtraction is: %d",ans);
-            }
+            ans = a - b;
+            printf("The Subtraction is: %d",ans);
             break;
         case 3:
             ans = a * b;
@@ -66,4 +60,5 @@ int main(){
         printf("\nInvalid Input!\nExiting");
     }
     return 0;
+
 }
